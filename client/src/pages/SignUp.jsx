@@ -33,7 +33,7 @@ export default function SignUp() {
       }
       setLoading(false);
       if(res.ok){
-        navigate('/sign-in');
+        navigate('/signin');
       }
       
     } catch (error) {
