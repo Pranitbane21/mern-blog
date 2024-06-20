@@ -1,11 +1,14 @@
 import {BrowserRouter, Routes, Route } from "react-router-dom"
-import Home from "./pages/Home"
-import About from "./pages/About"
-import SignIn from "./pages/SignIn"
-import SignUp from "./pages/SignUp" 
-import Dashboard from "./pages/Dashboard"
-import Project from "./pages/Projects"
-import Header from "./components/Header"
+import Home from "./pages/Home.jsx"
+import About from "./pages/About.jsx"
+import SignIn from "./pages/SignIn.jsx"
+import SignUp from "./pages/SignUp.jsx" 
+import Dashboard from "./pages/Dashboard.jsx"
+import Project from "./pages/Projects.jsx"
+import Header from "./components/Header.jsx"
+import FooterCom from "./components/Footer.jsx"
+
+
 
 
 export default function App() {
@@ -25,6 +28,8 @@ export default function App() {
 
 
       </Routes>
+
+      <FooterCom/>
     </BrowserRouter>
   )
 }
